@@ -6,3 +6,19 @@
  navList.addEventListener('click', () => {
         navList.classList.remove('active'); /* لما يصير ضغط داخل navList، شيل class اسمه active عشان تقفل القائمة */
  });
+const smartLinks = document.querySelectorAll('.smart-link');
+
+smartLinks.forEach(link => {
+    link.addEventListener('click', (event) => {
+        event.preventDefault();
+
+        const url = link.href;
+        const isMobile = window.innerWidth <= 768;
+
+        if (isMobile) {
+            window.location.href = url;
+        } else {
+            window.open(url, '_blank', 'noopener,noreferrer');
+        }
+    });
+});
