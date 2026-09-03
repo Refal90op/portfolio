@@ -1,0 +1,326 @@
+ .logo{
+    width: 115px;
+    height: auto;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding:  24px 64px;
+    max-width: 1440px;
+    margin: 0 auto; /* لتوسيط navbar  */
+    box-sizing: border-box;  /*لمنع المحتوى من التمدد بلا نهاية علو الشاشات الكبيرة*/
+}
+nav ul{
+    display: flex;
+    list-style: none;
+    gap: 24px;
+    margin: 0;
+    padding: 0;
+}
+nav a {
+    text-decoration: none;
+    color: #1c1c1c;}
+    .role {
+        font-size: 1.17em;
+        font-weight: bold;
+    }
+    .hero {
+padding: 20px 64px 40px;
+max-width:1200px;
+    }
+    .hero-description {
+        max-width: 700px;
+        line-height: 1.6;
+    }
+    .hero h1 {
+        font-family: "kurale", serif;
+        font-weight: 400;
+        font-size: 48px;
+        line-height: 1.1;
+    }
+    .role {
+        font-family: "DM Mono", monospace;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 1.6;
+    }
+    .hero-description {
+        font-family: "DM Sans", sans-serif;
+        max-width: 480px;
+        line-height: 1.6;
+        font-size: 18px;
+    }
+    .role {
+        font-size: 20px;
+    }
+    .hero-buttons {
+        display: flex;
+         justify-content:center;
+        gap: 16px;
+        margin-top: 24px;
+    }
+    .btn {
+    font-family:"DM Mono" ,monospace;
+    font-size: 14px;
+    text-decoration:none;
+    padding: 10px 22px;
+    border-radius:6px;
+    }
+    .primary-btn {
+        background-color: #704F45;
+        color:white;
+    }
+.secondary-btn {
+       
+        border: 1px solid  #1C1C1C;
+        color: #1C1C1C;
+        background:transparent;
+    }
+    .hero-links {
+        display: flex;
+        justify-content:center;
+        gap: 12px;
+        margin-top: 16px;
+    }
+    .hero-links a {
+        font-family: "DM Mono", monospace;
+       font-size: 12px;
+        color: #1C1C1C; 
+    }
+    .about {
+        padding: 70px 64px 30px;
+       background-color: #F3ECE8;
+    }
+    .about h2 {
+        font-family: "kurale", serif;
+        font-size: 32px;   
+        margin-bottom: 20px;
+    }
+    .about p {
+        font-family: "DM Sans", sans-serif;
+        font-size: 16px;
+        line-height: 1.6;
+        max-width: 650px;
+    }
+    .skills {
+        padding: 30px 64px 70px;
+        background-color: #EDE5E1;
+    }
+.skills h2 {
+        font-family: "kurale", serif;
+        font-size: 32px; 
+        margin-top: 0px;  
+        margin-bottom: 32px;
+    }
+    .skills-grid {
+        display: grid;
+        grid-template-columns: repeat(4,minmax(0px, 1fr));
+        gap: 40px;
+        align-items: start;
+    }
+    .skills-group h3 {
+        font-family: "DM Mono", monospace;
+        font-size: 16px;
+        margin-bottom: 10px;
+    }
+    .skills-group p {
+       font-family: "DM Sans", sans-serif;
+        font-size: 15px;
+        line-height: 1.9;
+    }
+    .projects {
+        padding: 40px 64px 70px;
+        background-color: #F7F5F2;
+    }
+    .projects h2 {
+        font-family: "kurale", serif;
+        font-size: 32px; 
+        margin-bottom: 32px;
+    }
+    .projects-card {
+        max-width: 240px;
+        padding: 40px;
+        border: 2px solid #D8D0CC;
+        border-radius: 12px;
+        background-color: #FFFDFB;
+        box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.08);
+
+    }
+    .projects-card h3 {
+        font-family: "kurale", serif;
+        font-size: 20px;
+        margin-top: 0px;
+        margin-bottom: 10px;
+    }
+    .project-description {
+        font-family: "DM Sans", sans-serif;
+        font-size: 15px;
+        font-weight: 400;
+        line-height: 1.6;
+    }
+    .projects-tech {
+        font-family: "DM Mono", monospace;
+        font-size: 12px; 
+        font-weight: 500;
+        margin-top: 16px;
+        justify-content: center;
+    }
+    .projects-links {
+        display: flex;
+        gap: 12px;
+        margin-top: 26px;
+    }
+.projects-btn {
+    font-family: "DM Mono", monospace;
+    font-size: 13px;
+    text-decoration: none;
+    padding: 9px 16px;
+    border-radius: 6px;
+    color: #1C1C1C;
+    justify-content: center;
+}
+.live-btn {
+   background-color: #704F45;
+   color:white;
+   box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.08);
+   justify-content: center;
+}
+.github-btn {
+    border: 1px solid #1C1C1C;
+    color: #1C1C1C;
+    background:transparent;
+}
+.contact {
+    padding: 30px 54px 40px;
+    background-color: #EEEAE4;
+}
+.contact h2 {
+    font-family: "kurale", serif;
+    font-size: 32px; 
+    margin-bottom: 18px;
+}
+.contact p {
+    font-family: "DM Sans", sans-serif;
+    font-size: 16px;
+    line-height: 1.6;
+    max-width: 650px;
+    margin-bottom: 20px;
+}
+.contact-links {
+    display: flex;
+    gap: 16px;
+}
+.contact-links a {
+    font-family: "DM Mono", monospace;
+    font-size: 13px;
+    border-radius: 6px;
+    color:#1C1C1C;
+}
+.footer {
+    padding: 20px 64px;
+    background-color: #D8D0C8;
+    text-align: center;
+    font-size: 13px;
+    color: #5F5A56;
+}
+.menu-toggle {
+  display: none;
+}
+@media (max-width: 768px) {
+nav ul {
+  display: none;
+  
+}
+ .menu-toggle {
+    display: block;
+    background: none;
+    border: none;
+    font-size: 24px;
+    cursor: pointer;
+}
+nav {
+   display: flex; 
+   justify-content: space-between;
+   align-items: center;
+   padding: 20px 24px;
+   position: relative;
+}
+nav ul.active {
+  display: flex;
+ flex-direction: row;
+ position: absolute;
+ top: 70%;
+ right: 24px;
+ gap: 12px;
+ padding: 0;
+align-items: flex-start;
+}
+nav ul.active li {
+ list-style: none;
+}
+.hero {
+    padding: 40px 24px;
+}
+.hero h1 {
+    font-size: 48px;
+   line-height: 1.1; 
+}
+.hero-description {
+    max-width: 100%;
+    line-height: 1.6;
+}.hero-buttons {
+    display: flex;
+    gap: 12px;
+    flex-wrap:wrap;
+}
+.about {
+    padding: 40px 24px;
+}
+.about p {
+    max-width: 100%;
+
+}
+.skills {
+    padding: 40px 24px;
+}
+.skills-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 20px;
+}
+.projects {
+    padding: 40px 24px;
+}
+.projects-card {
+    max-width: 100%;
+    padding: 20px;
+}
+.projects-links {
+    display: flex;
+    gap: 12px;
+   flex-wrap:wrap;
+}
+.contact {
+    padding: 40px 24px;
+}
+.contact-links {
+    display: flex;
+    gap: 12px;
+    flex-wrap:wrap;
+}
+.footer {
+    padding: 20px 24px;
+}
+}
+@media (max-width: 360px) {
+   nav ul.active {
+  display: flex;
+ flex-direction: row;
+ position: absolute;
+ top: 80%;
+    }
+   .projects-links {
+    flex-direction: column;
+    align-items: flex-start;
+    }
+}
