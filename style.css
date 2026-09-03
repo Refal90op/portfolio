@@ -233,7 +233,8 @@ nav ul {
   
 }
  .menu-toggle {
-    display: block;
+    display: none;
+    color: #1C1C1C;
     background: none;
     border: none;
     font-size: 24px;
@@ -314,9 +315,7 @@ nav ul.active li {
 }
 @media (max-width: 360px) {
    nav ul.active {
-  display: flex;
- flex-direction: row;
- position: absolute;
+
  top: 80%;
     }
    .projects-links {
